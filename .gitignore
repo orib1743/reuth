@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Allow folders
+!*/
+
+# Allow Jupyter notebooks
+!*.ipynb
+
+# Allow gitignore itself
+!.gitignore
+
+# Ignore checkpoints and junk
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+*.pt
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.PNG
+results_test/
+results_refined_model/

@@ -6,6 +6,8 @@
 
 # Allow Jupyter notebooks
 !*.ipynb
+!*.xlsx
+
 
 # Allow gitignore itself
 !.gitignore
